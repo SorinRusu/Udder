@@ -31,11 +31,16 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milk" translatesAutoresizingMaskIntoConstraints="NO" id="eeA-KY-WtP">
                                 <rect key="frame" x="0.0" y="797" width="414" height="99"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cow" translatesAutoresizingMaskIntoConstraints="NO" id="M4U-hg-tVg">
+                                <rect key="frame" x="0.0" y="188" width="414" height="99.5"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="eeA-KY-WtP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="486-N8-SMG"/>
+                            <constraint firstItem="M4U-hg-tVg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FRk-Cp-vfx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M4U-hg-tVg" secondAttribute="trailing" id="a0o-gP-303"/>
                             <constraint firstItem="h4O-K8-EK5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="bBq-Qx-vbE"/>
                             <constraint firstItem="Unl-m7-iTo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="c3E-9P-Dhc"/>
                             <constraint firstAttribute="bottom" secondItem="eeA-KY-WtP" secondAttribute="bottom" id="dbs-Kj-SxY"/>
@@ -43,6 +48,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eeA-KY-WtP" secondAttribute="trailing" id="k0o-tc-1xF"/>
                             <constraint firstItem="Unl-m7-iTo" firstAttribute="top" secondItem="h4O-K8-EK5" secondAttribute="bottom" constant="5" id="kG1-sw-daX"/>
                             <constraint firstItem="h4O-K8-EK5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m09-ah-1j4"/>
+                            <constraint firstItem="M4U-hg-tVg" firstAttribute="top" secondItem="Unl-m7-iTo" secondAttribute="bottom" constant="20" id="mdf-pl-5mT"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -52,6 +58,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cow" width="89" height="99.666664123535156"/>
         <image name="milk" width="192" height="99"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
